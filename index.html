@@ -1,0 +1,294 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .frameHolder{
+      	width: 50%; 
+      	height:auto;
+      }
+
+      .uploadHolder
+      {
+      	width: 50% !important; 
+      	height:auto;
+
+      }
+
+      .active{
+      	border-color: #19e8ff;
+      }
+
+      .palette
+      {
+      	border-color: #19e8ff;
+      	
+      }
+    </style>
+
+    <script>
+    
+
+    </script>
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>#Memleketİçin - Çerçeve Uygulayıcı</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Seçtiğiniz çerçeveyi kolayca fotoğrafa uygulayın</h1>
+      <br>
+           <p>  #Memleketİçin</p>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+
+
+          <div class="card shadow-sm" id="collider_cerceve_1">
+           <center><BR><img src="assets/cerceve_1.png" class="frameHolder" id="cerceve_1">
+            </center>
+
+            <div class="card-body">
+            
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="selectFrame('cerceve_1')">Seç</button>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+
+
+          <div class="card shadow-sm" id="collider_cerceve_2">
+           <center><br><img src="assets/cerceve_2.png" class="frameHolder" id="cerceve_2">
+            </center>
+
+            <div class="card-body">
+            
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="selectFrame('cerceve_2')">Seç</button>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+
+
+          <div class="card shadow-sm"	id="collider_cerceve_3">
+           <center><br><img src="assets/cerceve_3.png" class="frameHolder" id="cerceve_3">
+           	</center>
+
+            <div class="card-body">
+            
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="selectFrame('cerceve_3')">Seç</button>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+
+       <p>
+       	<center> 
+
+			<form runat="server">
+			  <input accept="image/*" type='file' id="imgInp" style="display: none;" />
+			  <label for='imgInp'> <img id="blah" class="uploadHolder" src="assets/upload_a_photo.png" onClick="" /> </label>
+			</form>
+			<a href="#" onClick="applyFrame()" class="btn btn-primary my-2">Çerçeveyi Ekle</a>
+          	<a href="#" onclick="downloadFrame()" class="btn btn-secondary my-2">İndir</a>
+       	</center>
+           <center id="canvas_container"><canvas class="palette" width="512" height="512" id="canvas"></canvas></center>
+        </p>
+
+
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+     <p class="mb-1">Çerçeve Önerileriniz İçin: <a href="mailto:umit@aksoylu.space">umit@aksoylu.space</a></p>
+    <p class="mb-1">Developed & Created By &copy; <a href="https://umit.space">Ümit Aksoylu</a></p>
+    <p class="mb-0">Source code avaible on github : <a href="https://github.com/Aksoylu/FrameBuilder">Opensource.Aksoylu.Space</a></p>
+  </div>
+</footer>
+
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      
+  </body>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+
+
+	var selectedFrame;
+	var uploadedImage;
+
+
+
+    	function selectFrame(e)
+    	{
+    		selectedFrame = document.getElementById(e).src;
+
+    		let selectedFrames = document.querySelectorAll('[id^="collider_"]');
+ 
+    		for(let i = 0; i< selectedFrames.length; i++)
+    		{
+    			selectedFrames[i].classList.remove("active");
+    		}
+
+
+
+    		document.getElementById("collider_"+ e).classList.add("active");
+
+    	}	
+
+	
+		function loadImage(src) {
+		    
+		    var img = new Image();
+
+		    img.src = src;
+
+		    return img;
+		}
+
+    	function applyFrame()
+    	{
+    		event.preventDefault();
+        document.getElementById("canvas_container").innerHTML = '<canvas class="palette" width="512" height="512" id="canvas">' ;
+
+    		let canvas = document.getElementById("canvas");
+			let ctx = canvas.getContext("2d");
+
+			let img1 = loadImage(selectedFrame);
+			let img2 = loadImage(uploadedImage);
+
+
+
+		  ctx.drawImage(img2, canvas.width * 0.142 , canvas.height * 0.162, canvas.width * 0.72,    canvas.height * 0.72);
+
+      ctx.drawImage(img1, 0, 0,  canvas.width,    canvas.height); // destination rectangle
+	     
+      
+    	  ctx.globalCompositeOperation = 'destination-in';
+       	  ctx.beginPath();
+		  ctx.arc(canvas.width/2,  canvas.height * 0.45, img1.naturalWidth /2.52, 0, 2 * Math.PI, false);
+		  ctx.fill();
+ 			ctx.restore();
+		 ctx.beginPath();
+		  ctx.arc(canvas.width/2,  canvas.height * 0.51, img1.naturalWidth /2.52, 0, 2 * Math.PI, false);
+		  ctx.fill();
+
+		  ctx.restore();
+    	}
+
+    	function downloadFrame()
+    	{
+    		let canvas = document.getElementById("canvas");
+    		let img    = canvas.toDataURL("image/png");
+    		document.write('<img crossorigin="anonymous" src="'+img+'"/>');
+
+    		
+    	}
+
+    	document.getElementById("imgInp").onchange = evt => {
+		  const [file] = imgInp.files
+		  if (file) {
+		    blah.src = URL.createObjectURL(file);
+		   uploadedImage =  blah.src;
+		  }
+		}
+    	
+
+
+</script>
